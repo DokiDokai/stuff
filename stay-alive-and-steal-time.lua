@@ -21,7 +21,7 @@ FarmBase.CanCollide = true
 FarmBase.Transparency = 0.5
 FarmBase.Parent = game:GetService("Workspace")
 FarmBase.Size = Vector3.new(25, 2.8, 25)
-FarmBase.Position = Vector3.new(50, 15000, 50)
+FarmBase.Position = Vector3.new(math.random(50, 150), 15000, math.random(50, 150))
 
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = FarmBase.CFrame
 

@@ -1,8 +1,7 @@
 local MainURL = "https://raw.githubusercontent.com/DokiDokai/stuff/main/centhub"
 
 local supportedgames = {
-    [4277144950] = "LR2",
-    [9030362964] = "FGS"
+    [4277144950] = "LR2"
 }
 
 for i,v in next, supportedgames do

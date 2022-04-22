@@ -2,11 +2,11 @@ local MainURL = "https://raw.githubusercontent.com/DokiDokai/stuff/main/centhub"
 
 local supportedgames = {
     [4277144950] = "LR2",
-    [9030362964] = "Field Goal Simulator"
+    [9030362964] = "FGS"
 }
 
 for i,v in next, supportedgames do
-    supportedgames[i] = table.concat(v:split(' '), '-')
+    supportedgames[i] = table.concat(v:split(' '), '_')
 end
 
 local GName = supportedgames[game.PlaceId] or supportedgames[game.GameId]

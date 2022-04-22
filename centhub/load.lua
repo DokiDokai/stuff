@@ -5,7 +5,7 @@ local supportedgames = {
 }
 
 for i,v in next, supportedgames do
-    supportedgames[i] = table.concat(v:split(' '), '_')
+    supportedgames[i] = table.concat(v:split(' '), '-')
 end
 
 local GName = supportedgames[game.PlaceId] or supportedgames[game.GameId]

@@ -1,4 +1,4 @@
-local MainURL = "https://raw.githubusercontent.com/DokiDokai/stuff/main/centhub"
+local MainURL = "https://raw.githubusercontent.com/DokiDokai/stuff/main/old/centhub"
 
 local supportedgames = {
     [4277144950] = "LR2"
